@@ -1,0 +1,31 @@
+// variables
+$main-color: #122348;
+$second-color: white;
+
+body {
+    background-color: $main-color;
+
+    h1 {
+        color: $second-color;
+    }
+}
+
+// scope
+$global-var: red;
+
+h1 {
+    $local-var: blue;
+    color: $local-var;
+}
+
+// Shadowing
+$var: green;
+
+p {
+    $var: red;
+    background-color: $var;
+}
+
+h1 {
+    background-color: $var;
+}
