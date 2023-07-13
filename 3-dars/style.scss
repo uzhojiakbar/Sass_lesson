@@ -1,0 +1,27 @@
+// Proporties
+.circle{
+    color: red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// Nesting Proporties (ichma ich xossalar) // 
+.heading{
+    font: {
+        size: 40px;
+        family:'Times New Roman', Times, serif;
+        weight:900;
+    }
+}
+
+// SHorthands
+.info-page{
+    margin: auto {
+        bottom: 45px;
+        left: 25px;
+    }
+}
