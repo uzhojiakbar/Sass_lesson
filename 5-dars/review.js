@@ -1,7 +1,7 @@
 // SASS barcha matematik ammalarni qo'llab quvvatlaydi!
 
 // ==================
-// Arifmetik ammalar
+// Arifmetik amallar
 // + -> qoshuv
 // - -> ayruv
 // * -> kopayturuv
